@@ -1,7 +1,12 @@
 # React-router的一些简单实例
 总结一下学习的内容。
+[dva2.0](https://github.com/sorrycc/blog/issues/48)
+[初探 React Router 4.0](http://www.jianshu.com/p/e3adc9b5f75c)
+[All About React Router 4](https://css-tricks.com/react-router-4/)
 [react-router2 迁移到 react-router4 关注点](https://github.com/gmfe/blog/issues/6)
-[ReactTraining/react-router(github官方)](https://github.com/ReactTraining/react-router)
+[React-router 4 按需加载的实现方式及原理(Code Splitting)](https://segmentfault.com/a/1190000009539836), 能理解项目router.js语法了
+[React Router 4 简易入门](https://segmentfault.com/a/1190000010174260)
+[ReactTraining/react-router(github官方，有些例子老旧)](https://github.com/ReactTraining/react-router)
 ## tips
 有jsx语法的js文件中，必须要import进React
 ### BrowserRouter不能本地打开
@@ -13,7 +18,6 @@ render (
     // ... 
   </BrowserRouter>
 )
-
 ```
 [更新对React Router的History的认识](http://levy.work/2017-01-09-update-knowledge-of-react-router-history/)
 简洁说明:
