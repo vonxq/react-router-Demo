@@ -1,5 +1,5 @@
 ## 功能
-![]()
+![效果图](https://github.com/vonxq/react-router-demo/blob/master/resources/img/routeUrlPrams.gif?raw=true)
 URL传参，Home为动态，About为静态
 传参地址栏可见
 ## 使用
