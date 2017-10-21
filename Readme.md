@@ -1,5 +1,8 @@
 # React-router的一些简单实例
 总结一下学习的内容。
+## 更新记录
+1021 更新react-router4+webpack实现按需加载,loadOnDemand6文件夹
+
 ## 通用package说明
 
 
@@ -11,8 +14,8 @@
 [react-router2 迁移到 react-router4 关注点](https://github.com/gmfe/blog/issues/6)
 [React-router 4 按需加载的实现方式及原理(Code Splitting)](https://segmentfault.com/a/1190000009539836), 能理解项目router.js语法了
 [React Router 4 简易入门](https://segmentfault.com/a/1190000010174260)
+[React Router 4路由配置](https://segmentfault.com/a/1190000010472619)
 [ReactTraining/react-router(github官方，有些例子老旧)](https://github.com/ReactTraining/react-router)
-
 ## 常见问题解答
 3. URL传参冲突如何处理(如<Link to="/about" />可以是根目录下传的参数为about，也可以是/about页面)
   Route会显示所有已匹配的内容，从短到长依次显示

@@ -31,13 +31,13 @@ class BasicExample extends React.Component{
     const { clickAboutCount, clickHomeCount } = this.state
     const toHome = {
         pathname: '/',
-        search: '?sort=name',
+        search: `count=${clickHomeCount}`,
         hash: '#the-hash',
         state: { clickHomeCount }
     }
     const toAbout = {
       pathname: '/about',
-      search: `?clickAboutCount=${clickAboutCount}`,
+      search: `count=${clickAboutCount}`,
       hash: '#the-hash',
       state: { clickAboutCount, 
         age: 22,
@@ -69,7 +69,7 @@ const Home = (props) => (
 
 const About = (props) => (
   <div>
-    <h2>About- { props.location.state ? `我是${props.location.state.name}-我今年${props.location.state.age}<br/> 这是第${props.location.state.clickAboutCount}次点击About了 <br/>search里的参数为${props.location.search} `: "暂无参数"}</h2>
+    <h2>About- { props.location.state ? `这是第${props.location.state.clickAboutCount}次点击About`+'\n'+ ` search里的参数为${props.location.search} `: "暂无参数"}</h2>
   </div>
 )
 

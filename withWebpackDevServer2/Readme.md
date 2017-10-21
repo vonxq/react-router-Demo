@@ -1,4 +1,4 @@
-使用webpack-dev-server作为文件服务器的路由(支持BrowserRouter，页面刷新会报404)
+使用webpack-dev-server作为文件服务器的路由(支持BrowserRouter，但页面刷新会报404)
 ## 使用
 ```
 yarn
